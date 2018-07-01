@@ -20,6 +20,6 @@ A pymol plug-in for predicting B-cell epitopes
   Python 2.7;
   Pymol 1.7x or a higher version;
   
-  #The test data you can find is in the Test data file
+  #The test data you can find is in the Test-data file
   
   
