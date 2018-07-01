@@ -17,8 +17,8 @@ import tkFont
 	#  Install the plugin
 def __init__(self):
 	self.menuBar.addmenuitem('Plugin', 'command',
-							'pymimox',
-							label='pyMIMOX',
+							'PyMIMOX',
+							label='PyMIMOX',
 							command=init) 
 
 class App():
@@ -26,7 +26,7 @@ class App():
 
 	def __init__(self,root):
 		self.root = root 
-		root.title('pyMIMOX')
+		root.title('PyMIMOX')
 		#root.geometry('400x460')
 		ft = tkFont.Font(family = 'Fixdsys',size = 20,weight = tkFont.BOLD)
 		
@@ -36,7 +36,7 @@ class App():
 		
 		# Introduction box
 		
-		self.mainlabel = Message(frCuang,fg = '#7B68EE', text='PyMIMOX is a conformational B-cell epitope prediction algorithm based on phage display. The algorithm use accessible surface area to filter epitope residues. Those residues will be divided into patches. By calculate this patches mimetic similarity score,the best score patch will be visualized as prediction.',width=420, bg='#fcfbf5', bd=2, relief=GROOVE,  justify=LEFT)  
+		self.mainlabel = Message(frCuang,fg = '#7B68EE', text='PyMIMOX is a conformational B-cell epitope prediction algorithm based on phage display. The algorithm divides the antigen surface into patches. The Generalised Jaccard Similarity between each patch and each mimotope is computed. And the top five matches are listed as candidate epitopes. The best one will be visualized in PyMOL by default.',width=420, bg='#fcfbf5', bd=2, padx=10,  pady=5,relief=GROOVE,  justify=LEFT)  
 		self.mainlabel.grid(row=0, columnspan=12, padx=5,  pady=5)  
 
   
