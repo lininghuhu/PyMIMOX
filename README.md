@@ -2,8 +2,8 @@
 A pymol plug-in for predicting B-cell epitopes
 
 Install
-  1 Download the PyMIMOX;
-  2 open the Pymol and click the options:
+  1 Download the PyMIMOX;\n
+  2 open the Pymol and click the options:\n
     Plugin-->Plugin Manager-->Install New Plugin-->choose file;
 
 
