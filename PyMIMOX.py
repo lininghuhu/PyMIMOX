@@ -319,7 +319,7 @@ def Cluster(peptide):
 	
 	
 # 	Obtain  all possible residual information	
-def resipick(selectedChain=False,cutoff=12, doShow=False, verbose=False):
+def resipick(selectedChain=False,cutoff=10, doShow=False, verbose=False):
     
 	objSel="(all)"
 
